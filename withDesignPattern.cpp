@@ -111,9 +111,9 @@ public:
     }
 };
 
-class Client {
+class Shop {
 public:
-    Client(Factory* f) {
+    Shop(Factory* f) {
         factory = f;
     }
 
@@ -152,6 +152,7 @@ int main() {
         factory = new XiaomiFactory;
     }
 
-    Client* c = new Client(factory);
-    c->orderPhone();
+    Shop* s = new Shop(factory);
+    s->orderPhone();
+    return 0;
 }

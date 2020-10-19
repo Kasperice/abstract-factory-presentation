@@ -17,6 +17,12 @@ Author: Kasper Biegun
 
 ---
 
+# How it looks without desing pattern?
+
+[Example](https://github.com/Kasperice/abstract-factory-presentation/blob/main/withoutDesignPattern.cpp])
+
+---
+
 # Short introduction
 
 Abstract factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.

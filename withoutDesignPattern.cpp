@@ -65,7 +65,7 @@ public:
     }
 };
 
-class Client {
+class Shop {
 public:
     void orderPhone() {
         orderShell();
@@ -111,6 +111,7 @@ public:
 };
 
 int main() {
-    Client* c = new Client();
-    c->orderPhone();
+    Shop* s = new Shop();
+    s->orderPhone();
+    return 0;
 }
